@@ -32,3 +32,25 @@ if (questionFour === 'yes' || questionFour === 'y'){
 } else {
   alert("Alright let me think of some more then.");
 };
+
+var questionFive = prompt(" ").toLowerCase();
+
+if (){
+  /* One of these questions should include the use of logical operators
+  (refer to page ~157 of the JS text book for example usage).
+  As a secondary example, one of your questions can validate use input in the form of 'Yes' and 'Y', or 'No' and 'N'.
+} else {
+
+}*/
+
+var questionSix = prompt(" ").toLowerCase();
+
+if() {
+  /* One of the questions should include multiple answers (more than two).
+  These answers can be stored in an array, and you will want to use the array method indexOf()
+  to find out whether the user's guess exists in the array or not.
+  If it does, use the index returned to you to select that value
+  and tell the user that they guessed the answer correct.
+} else {
+
+}*/
