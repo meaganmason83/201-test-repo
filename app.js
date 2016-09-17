@@ -51,7 +51,7 @@ if (questionFive === 'yes' || questionFive === 'y'){
   alert("Please answer yes or no.");
 }
 
-var questionSix = prompt("I'm thinking of a number between 1 and 5. What is it?");
+var questionSix = parseInt(prompt("I'm thinking of a number between 1 and 5. What is it?"));
 
 var myArray = [3, 4];
 if (myArray.indexOf(questionSix) > -1) {
